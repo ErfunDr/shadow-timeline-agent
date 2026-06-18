@@ -1,0 +1,19 @@
+{
+  "main_topic": "FTX",
+  "short_summary": "Cryptocurrency exchange faced liquidity crisis and bankruptcy after reports emerged on Alameda Research's balance sheet.",
+  "timeline": [
+    {
+      "date": "2022-11-00 or Unknown",
+      "title": "Reports emerge showing problems in Alameda Research's balance sheet.",
+      "summary": "Users started withdrawing funds.",
+      "importance": 1,
+      "suspicious_score": 1,
+      "evidence": "short quote or clue from the text"
+    }
+  ],
+  "mystery_angle": "",
+  "open_questions": [
+    "Handling of customer funds"
+  ],
+  "final_assessment": ""
+}

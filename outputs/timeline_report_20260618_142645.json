@@ -1,0 +1,43 @@
+{
+  "main_topic": "FTX Collapse",
+  "short_summary": "FTX faced a liquidity crisis due to withdrawal requests, leading to its collapse and bankruptcy.",
+  "timeline": [
+    {
+      "date": "2022-11-01",
+      "title": "Reports emerge about Alameda Research's balance sheet",
+      "summary": "Alameda's assets were connected to FTT",
+      "importance": 8,
+      "suspicious_score": 6,
+      "evidence": "balance sheet report"
+    },
+    {
+      "date": "2022-11-02",
+      "title": "Confidence in FTX collapses",
+      "summary": "Withdrawal requests cause liquidity crisis",
+      "importance": 9,
+      "suspicious_score": 8,
+      "evidence": "user withdrawals"
+    },
+    {
+      "date": "2022-11-03",
+      "title": "Binance announces possible acquisition of FTX",
+      "summary": "Deal later backed out",
+      "importance": 7,
+      "suspicious_score": 5,
+      "evidence": "Binance statement"
+    },
+    {
+      "date": "Unknown",
+      "title": "FTX files for bankruptcy",
+      "summary": "CEO Sam Bankman-Fried resigns",
+      "importance": 10,
+      "suspicious_score": 9,
+      "evidence": "FTX press release"
+    }
+  ],
+  "mystery_angle": "",
+  "open_questions": [
+    "Customer fund misuse"
+  ],
+  "final_assessment": ""
+}

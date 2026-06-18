@@ -1,0 +1,19 @@
+**Main Topic:** FTX, a cryptocurrency exchange, faces collapse and bankruptcy due to liquidity crisis and mismanagement of customer funds.
+
+**Important Events:**
+
+1. **November 2022**: Reports emerge showing problems in Alameda Research's balance sheet, indicating potential issues with the company's financial management.
+2. **Late November/Early December 2022**: Users start withdrawing funds from FTX, exacerbating the liquidity crisis.
+3. **December 2022**: FTX files for bankruptcy, marking a significant turning point in the company's downfall.
+4. **December 2022**: Sam Bankman-Fried resigns as CEO of FTX, following the filing for bankruptcy.
+
+**Mystery Angle:**
+
+* The extent to which Alameda Research's balance sheet issues were related to its overall financial health and whether they contributed directly to FTX's collapse is unclear.
+* There may be more information about the specific events leading up to the withdrawal of funds by users and how it was handled by FTX.
+
+**Open Questions:**
+
+1. What exactly were the problems in Alameda Research's balance sheet, and how did they impact FTX?
+2. How did the company manage customer funds, and was this a contributing factor to its collapse?
+3. What specific actions or decisions led to Sam Bankman-Fried's resignation as CEO of FTX?
