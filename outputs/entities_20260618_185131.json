@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Alameda Research",
+    "type": "Organization",
+    "description": "A research firm closely linked to Alameda Holdings, a major holder of FTT.",
+    "role_in_case": "Primary entity involved in FTX's liquidity crisis",
+    "importance": 9,
+    "source": "article1.txt",
+    "evidence": "Concerns about Alameda Research's balance sheet and its connection to FTT raised concerns."
+  },
+  {
+    "name": "FTX",
+    "type": "Company",
+    "description": "A leading cryptocurrency exchange.",
+    "role_in_case": "Main entity affected by the liquidity crisis",
+    "importance": 9,
+    "source": "article1.txt",
+    "evidence": "Reports raised concerns about FTX's balance sheet and its connection to Alameda Research."
+  },
+  {
+    "name": "Binance",
+    "type": "Company",
+    "description": "A major cryptocurrency exchange.",
+    "role_in_case": "Potential acquirer of FTX, but withdrew from the deal",
+    "importance": 8,
+    "source": "article3.txt",
+    "evidence": "Considered acquiring FTX but later withdrew from the deal."
+  },
+  {
+    "name": "Sam Bankman-Fried",
+    "type": "Person",
+    "description": "The CEO of FTX who resigned following the liquidity crisis.",
+    "role_in_case": "Primary entity responsible for FTX's operations",
+    "importance": 9,
+    "source": "article3.txt",
+    "evidence": "Resigned as CEO following FTX's bankruptcy filing."
+  }
+]

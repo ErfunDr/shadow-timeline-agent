@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "name": "Alameda Research",
+      "type": "Company",
+      "description": "A hedge fund that was at the center of the FTX collapse.",
+      "role_in_case": "Connection to FTT",
+      "importance": 8,
+      "source": "article1.txt",
+      "evidence": ""
+    },
+    {
+      "name": "FTX",
+      "type": "Company",
+      "description": "A cryptocurrency exchange that filed for bankruptcy.",
+      "role_in_case": "",
+      "importance": 9,
+      "source": "article1.txt, article2.txt, article3.txt",
+      "evidence": ""
+    },
+    {
+      "name": "Binance",
+      "type": "Company",
+      "description": "A cryptocurrency exchange that considered acquiring FTX but withdrew from the deal.",
+      "role_in_case": "",
+      "importance": 7,
+      "source": "article3.txt",
+      "evidence": ""
+    },
+    {
+      "name": "Sam Bankman-Fried",
+      "type": "Person",
+      "description": "The CEO of FTX who resigned after the company filed for bankruptcy.",
+      "role_in_case": "",
+      "importance": 8,
+      "source": "article3.txt",
+      "evidence": ""
+    }
+  ],
+  "connections": [
+    {
+      "from_entity": "Alameda Research",
+      "relationship": "connected to",
+      "to_entity": "FTX",
+      "evidence": "SOURCE: article1.txt",
+      "source": "SOURCE: article1.txt"
+    },
+    {
+      "from_entity": "FTX",
+      "relationship": "connected to",
+      "to_entity": "Alameda Research",
+      "evidence": "SOURCE: article1.txt",
+      "source": "SOURCE: article1.txt"
+    },
+    {
+      "from_entity": "Binance",
+      "relationship": "withdrew from",
+      "to_entity": "FTX",
+      "evidence": "SOURCE: article3.txt",
+      "source": "SOURCE: article3.txt"
+    },
+    {
+      "from_entity": "Sam Bankman-Fried",
+      "relationship": "resigned as CEO",
+      "to_entity": "FTX",
+      "evidence": "SOURCE: article3.txt",
+      "source": "SOURCE: article3.txt"
+    }
+  ]
+}

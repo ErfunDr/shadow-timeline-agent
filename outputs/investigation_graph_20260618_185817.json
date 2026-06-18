@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "name": "Alameda Research",
+      "type": "Company",
+      "description": "A hedge fund specializing in crypto assets",
+      "role_in_case": "Connection to FTT",
+      "importance": 8,
+      "source": "article1.txt",
+      "evidence": ""
+    },
+    {
+      "name": "FTX",
+      "type": "Company",
+      "description": "A cryptocurrency exchange",
+      "role_in_case": "Relevant company in the crisis",
+      "importance": 9,
+      "source": "article1.txt, article2.txt",
+      "evidence": ""
+    },
+    {
+      "name": "Sam Bankman-Fried",
+      "type": "Person",
+      "description": "CEO of FTX until resignation",
+      "role_in_case": "Key figure in the crisis",
+      "importance": 8,
+      "source": "article3.txt",
+      "evidence": ""
+    },
+    {
+      "name": "Binance",
+      "type": "Company",
+      "description": "A cryptocurrency exchange and rival to FTX",
+      "role_in_case": "Considered acquiring FTX",
+      "importance": 7,
+      "source": "article3.txt",
+      "evidence": ""
+    }
+  ],
+  "connections": [
+    {
+      "from_entity": "Alameda Research",
+      "relationship": "connected to",
+      "to_entity": "FTX",
+      "evidence": "reports raised concerns about Alameda Research's balance sheet and its connection to FTT.",
+      "source": "article1.txt"
+    },
+    {
+      "from_entity": "FTX",
+      "relationship": "withdrew from",
+      "to_entity": "Binance",
+      "evidence": "Binance considered acquiring FTX but later withdrew from the deal.",
+      "source": "article3.txt"
+    },
+    {
+      "from_entity": "FTX",
+      "relationship": "faced liquidity crisis with",
+      "to_entity": "Alameda Research",
+      "evidence": "In early November 2022, reports raised concerns about Alameda Research's balance sheet and its connection to FTT.",
+      "source": "article1.txt"
+    },
+    {
+      "from_entity": "Sam Bankman-Fried",
+      "relationship": "resigned as CEO of",
+      "to_entity": "FTX",
+      "evidence": "FTX filed for bankruptcy and Sam Bankman-Fried resigned as CEO.",
+      "source": "article3.txt"
+    }
+  ]
+}
