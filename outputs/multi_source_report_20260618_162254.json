@@ -1,0 +1,50 @@
+{
+  "main_topic": "FTX Collapse",
+  "short_summary": "The collapse of cryptocurrency exchange FTX was triggered by concerns over Alameda Research's balance sheet, leading to a liquidity crisis, withdrawal of funds, and eventual bankruptcy.",
+  "source_count": 3,
+  "timeline": [
+    {
+      "date": "2022-11-01",
+      "title": "Concerns Over Alameda Research",
+      "summary": "Reports raised concerns about Alameda Research's balance sheet and its connection to FTT.",
+      "importance": 8,
+      "suspicious_score": 6,
+      "sources": [
+        "article1.txt"
+      ],
+      "evidence": ""
+    },
+    {
+      "date": "2022-11-03",
+      "title": "FTX Users Withdraw Funds",
+      "summary": "FTX users began withdrawing funds after the Alameda report.",
+      "importance": 7,
+      "suspicious_score": 5,
+      "sources": [
+        "article1.txt",
+        "article2.txt"
+      ],
+      "evidence": ""
+    },
+    {
+      "date": "2023-01-11",
+      "title": "Binance Withdraws from FTX Deal",
+      "summary": "Binance considered acquiring FTX but later withdrew from the deal.",
+      "importance": 9,
+      "suspicious_score": 4,
+      "sources": [
+        "article2.txt",
+        "article3.txt"
+      ],
+      "evidence": ""
+    }
+  ],
+  "key_connections": [],
+  "possible_contradictions": [],
+  "mystery_angle": "",
+  "open_questions": [
+    "What was the exact relationship between Alameda Research and FTT?",
+    "How did Binance's withdrawal from the deal affect FTX?"
+  ],
+  "final_assessment": "The collapse of FTX was a result of concerns over Alameda Research's balance sheet, leading to a liquidity crisis and eventual bankruptcy."
+}
