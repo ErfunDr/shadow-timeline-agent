@@ -1,6 +1,6 @@
 ## Demo
 
-![Graph Demo](assets/graph-demo)
+![Graph Demo](assets/graph-demo.png)
 # Shadow Investigation Agent
 
 An AI-powered investigation engine that analyzes multiple articles, extracts entities and relationships, and builds an interactive investigation graph.
