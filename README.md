@@ -75,19 +75,19 @@ Open:
 ```bash
 http://localhost:8080/frontend/index.html
 ```
-Outputs
+##Outputs
 
 The project generates:
 
-outputs/entities.json
-outputs/connections.json
-outputs/graph.json
-outputs/investigation_graph_*.md
+-outputs/entities.json
+-outputs/connections.json
+-outputs/graph.json
+-outputs/investigation_graph_*.md
 
-Roadmap
-Better entity extraction
-Better relationship direction
-Timeline reconstruction
-Automatic news collection
+##Roadmap
+-Better entity extraction
+-Better relationship direction
+-Timeline reconstruction
+-Automatic news collection
 More polished graph visualization
 Real investigation case studies
