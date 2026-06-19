@@ -78,6 +78,7 @@ http://localhost:8080/frontend/index.html
 Outputs
 
 The project generates:
+
 outputs/entities.json
 outputs/connections.json
 outputs/graph.json
