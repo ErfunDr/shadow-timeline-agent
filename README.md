@@ -2,50 +2,58 @@
 
 An AI-powered investigation engine that analyzes multiple articles, extracts entities and relationships, and builds an interactive investigation graph.
 
-## Features
+## What It Does
 
-* Multi-source article analysis
-* Entity extraction
-* Relationship extraction
-* Investigation graph generation
-* Interactive D3.js visualization
-* Markdown investigation reports
+This project turns raw articles into an investigation graph.
+
+It can:
+
+- Read multiple article files
+- Extract important entities
+- Extract relationships between entities
+- Build a graph JSON file
+- Show the graph in an interactive D3.js viewer
 
 ## Workflow
 
-Articles
-↓
-Entity Extraction
-↓
-Connection Extraction
-↓
-Graph Builder
-↓
-D3 Visualization
+Articles  
+↓  
+Entity Extraction  
+↓  
+Connection Extraction  
+↓  
+Graph Builder  
+↓  
+D3.js Visualization  
 
 ## Example Case
 
 FTX Collapse
 
-Entities:
+Extracted entities:
 
-* FTX
-* Alameda Research
-* Binance
-* Sam Bankman-Fried
+- FTX
+- Alameda Research
+- Binance
+- Sam Bankman-Fried
 
-Relationships:
+Example connections:
 
-* founded
-* connected_to
-* considered_acquiring
-* resigned_as_ceo
+- Alameda Research → connected to → FTX
+- Binance → considered acquiring → FTX
+- Sam Bankman-Fried → resigned as CEO of → FTX
 
-## Future Roadmap
+## Tech Stack
 
-* Better entity extraction
-* Automatic news collection
-* Graph clustering
-* Investigation scoring
-* Timeline reconstruction
-* YouTube-ready report generation
+- Python
+- Ollama
+- Llama 3.2
+- Pydantic
+- D3.js
+
+## How to Run
+
+Install requirements:
+
+```bash
+pip install -r requirements.txt
