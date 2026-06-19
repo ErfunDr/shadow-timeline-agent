@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Alameda Research",
+    "type": "Company",
+    "description": "",
+    "role_in_case": "Balancing sheet concerns",
+    "importance": 9,
+    "source": "article1.txt",
+    "evidence": ""
+  },
+  {
+    "name": "FTX",
+    "type": "Exchange",
+    "description": "",
+    "role_in_case": "Liquidity crisis and bankruptcy",
+    "importance": 10,
+    "source": "article2.txt",
+    "evidence": ""
+  },
+  {
+    "name": "Binance",
+    "type": "Company",
+    "description": "",
+    "role_in_case": "Acquisition deal withdrawal",
+    "importance": 8,
+    "source": "article3.txt",
+    "evidence": ""
+  },
+  {
+    "name": "Sam Bankman-Fried",
+    "type": "Person",
+    "description": "",
+    "role_in_case": "CEO resignation",
+    "importance": 7,
+    "source": "article3.txt",
+    "evidence": ""
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "from_entity": "Alameda Research",
+    "relationship": "connected to",
+    "to_entity": "FTX",
+    "evidence": "reports raised concerns about Alameda Research's balance sheet and its connection to FTT.",
+    "source": "article1.txt"
+  },
+  {
+    "from_entity": "Binance",
+    "relationship": "withdrew from",
+    "to_entity": "FTX",
+    "evidence": "",
+    "source": "article3.txt"
+  },
+  {
+    "from_entity": "Sam Bankman-Fried",
+    "relationship": "resigned as CEO",
+    "to_entity": "FTX",
+    "evidence": "",
+    "source": "article3.txt"
+  }
+]

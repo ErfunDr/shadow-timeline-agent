@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "name": "Alameda Research",
+      "type": "Organization",
+      "description": "A cryptocurrency research firm with a balance sheet connection to FTT.",
+      "role_in_case": "Connection to FTT raised concerns about FTX balance sheet.",
+      "importance": 8,
+      "source": "article1.txt",
+      "evidence": ""
+    },
+    {
+      "name": "FTX",
+      "type": "Company",
+      "description": "A major cryptocurrency exchange.",
+      "role_in_case": "Subject of financial concerns and subsequent liquidity crisis.",
+      "importance": 9,
+      "source": "article1.txt, article2.txt, article3.txt",
+      "evidence": ""
+    },
+    {
+      "name": "Binance",
+      "type": "Company",
+      "description": "A major cryptocurrency exchange.",
+      "role_in_case": "Considered acquiring FTX but withdrew from the deal.",
+      "importance": 7,
+      "source": "article3.txt",
+      "evidence": ""
+    },
+    {
+      "name": "Sam Bankman-Fried",
+      "type": "Person",
+      "description": "The former CEO of FTX.",
+      "role_in_case": "Resigned as CEO after FTX filed for bankruptcy.",
+      "importance": 6,
+      "source": "article3.txt",
+      "evidence": ""
+    }
+  ],
+  "connections": [
+    {
+      "from_entity": "Alameda Research",
+      "relationship": "connected to",
+      "to_entity": "FTX",
+      "evidence": "Alameda Report",
+      "source": "article1.txt"
+    },
+    {
+      "from_entity": "FTX",
+      "relationship": "struggled with",
+      "to_entity": "liquidity crisis",
+      "evidence": "",
+      "source": "article2.txt"
+    },
+    {
+      "from_entity": "Binance",
+      "relationship": "considered acquiring",
+      "to_entity": "FTX",
+      "evidence": "",
+      "source": "article3.txt"
+    },
+    {
+      "from_entity": "Binance",
+      "relationship": "withdrew from",
+      "to_entity": "FTX",
+      "evidence": "",
+      "source": "article3.txt"
+    },
+    {
+      "from_entity": "Sam Bankman-Fried",
+      "relationship": "resigned as CEO",
+      "to_entity": "FTX",
+      "evidence": "",
+      "source": "article3.txt"
+    }
+  ]
+}

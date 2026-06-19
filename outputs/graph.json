@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "id": "alameda_research",
+      "label": "Alameda Research",
+      "type": "Company",
+      "importance": 9
+    },
+    {
+      "id": "ftx",
+      "label": "FTX",
+      "type": "Exchange",
+      "importance": 10
+    },
+    {
+      "id": "binance",
+      "label": "Binance",
+      "type": "Company",
+      "importance": 8
+    },
+    {
+      "id": "sam_bankman_fried",
+      "label": "Sam Bankman-Fried",
+      "type": "Person",
+      "importance": 7
+    }
+  ],
+  "edges": [
+    {
+      "from": "alameda_research",
+      "to": "ftx",
+      "label": "connected to",
+      "context": "reports raised concerns about Alameda Research's balance sheet and its connection to FTT.",
+      "source": "article1.txt"
+    },
+    {
+      "from": "binance",
+      "to": "ftx",
+      "label": "withdrew from",
+      "context": "",
+      "source": "article3.txt"
+    },
+    {
+      "from": "sam_bankman_fried",
+      "to": "ftx",
+      "label": "resigned as CEO",
+      "context": "",
+      "source": "article3.txt"
+    }
+  ]
+}
