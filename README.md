@@ -1,32 +1,51 @@
-# Shadow Timeline Agent
+# Shadow Investigation Agent
 
-An AI-powered investigation tool that analyzes articles, reports, and stories and automatically builds a timeline of important events.
+An AI-powered investigation engine that analyzes multiple articles, extracts entities and relationships, and builds an interactive investigation graph.
 
 ## Features
 
-* Timeline extraction
-* Mystery angle detection
-* Open question generation
-* Local AI execution with Ollama
-* No API costs
+* Multi-source article analysis
+* Entity extraction
+* Relationship extraction
+* Investigation graph generation
+* Interactive D3.js visualization
+* Markdown investigation reports
 
-## Example Use Cases
+## Workflow
 
-* FTX collapse
-* Crypto scandals
-* Startup failures
-* Business investigations
-* Technology timelines
+Articles
+↓
+Entity Extraction
+↓
+Connection Extraction
+↓
+Graph Builder
+↓
+D3 Visualization
 
-## Tech Stack
+## Example Case
 
-* Python
-* Ollama
-* Llama 3.2
+FTX Collapse
+
+Entities:
+
+* FTX
+* Alameda Research
+* Binance
+* Sam Bankman-Fried
+
+Relationships:
+
+* founded
+* connected_to
+* considered_acquiring
+* resigned_as_ceo
 
 ## Future Roadmap
 
-* Structured JSON output
-* Timeline visualization
-* Multi-document analysis
-* Interactive investigation dashboard
+* Better entity extraction
+* Automatic news collection
+* Graph clustering
+* Investigation scoring
+* Timeline reconstruction
+* YouTube-ready report generation
